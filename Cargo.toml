@@ -1,0 +1,13 @@
+[package]
+name = "khanijtrace_ai"
+version = "0.1.0"
+edition = "2021"
+description = "KhanijTrace AI: Strategic Critical Mineral Provenance, Concession Royalty Escrow and Illegal Mining Prevention"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
